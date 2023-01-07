@@ -22,3 +22,9 @@
 		4. GRID LAYOUT
 		5. RESPONSIVNESS with media-query
 		
+
+					CONTACT:
+					
+		           mail: balogferencz.artist@gmailcom
+			website: https://balogferencz.wordpress.com
+		      git pages: ferenczbalog.github.io (this portfolio)
