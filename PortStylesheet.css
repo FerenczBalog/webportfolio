@@ -127,15 +127,15 @@ h3 {
 
  /* SECTIONS */
 
- .section-block.grey {
-    background-color: rgb(128, 128, 128);
+ .section-block.blue {
+    background-color: rgb(30, 30, 241);
 }
 
 .section-block.green {
-    background-color: #435943;
+    background-color: #24b3247d;
 }
 
- .section-block {
+.section-block {
     height: calc(100vh - 8);
     height: 100vh;
     padding:3rem;
@@ -161,15 +161,6 @@ h3 {
         font-weight: 400;
         padding-top: 0rem;
     }
-
-    .section-block.grey h2 {
-        color: #fff;
-    }
-
-    .section-block.green h2 {
-        color: #fff;
-    }
-
 
 
 @media(max-width: 1023px) {
@@ -244,12 +235,6 @@ h3 {
 
  
 /* My passions & Portfolio*/
-#section-1 {
-    background-image:url("photo/bkgpassions.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .section-1-2 h2, .rec-section h2 {
     padding-top: 5rem;
@@ -263,6 +248,10 @@ h3 {
     margin-bottom: 2.5rem;
     margin-top: 8rem;
 }
+
+    .section-1-2 a {
+        color: white;
+    }
 
 /*ROTATED BACKGROUND*/
 .box{
@@ -299,17 +288,6 @@ h3 {
         margin: 2rem;
     }
 
-    .grid1 {
-        background-color: hsla(0, 0%, 0%, 0.60);
-    }
-
-    .grid2 {
-        background-color: rgba(0, 0, 0, 0.60);
-    }
-
-    .grid3 {
-        background-color: rgba(0, 0, 0, 0.50);
-    }
 /* My passions & Portfolio*/
 
 
@@ -319,7 +297,7 @@ h3 {
     height: 21rem;
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
     .rec-section-box > img {
@@ -449,4 +427,19 @@ h3 {
     max-width: 30rem;
     margin-left: 50rem;
     margin-top: 8rem;
+}
+
+.bkg-blue {
+    background-image: url(photo/BkgBlue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkg-green {
+    background-image: url(photo/BkgGreen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
