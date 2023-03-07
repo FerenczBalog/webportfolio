@@ -443,3 +443,24 @@ h3 {
     background-size: cover;
 
 }
+
+.blog {
+    color: white;
+}
+
+.blog-nav {
+    width: 15rem;
+    background-color: rgba(0, 0, 0, 0.596);
+    position: fixed;
+}
+
+.blog-nav h2 {
+    font-size: 2rem;
+}
+
+.posts {
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 80%;
+    float: right;
+    margin-right: 10rem;
+}
