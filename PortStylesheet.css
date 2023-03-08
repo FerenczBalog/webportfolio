@@ -450,6 +450,10 @@ h3 {
     color: white;
     padding-top: 10rem;
 }
+    .blog a{
+        color: white;
+        text-decoration: none;
+    }
 
 .blog-nav {
     width: 15rem;
@@ -507,8 +511,27 @@ hr {
     margin: 2rem;
 }
 
-.project-photo {
-    width: 20rem;
+.project-video {
+    width: 25rem;
+    height: 15rem;
     margin-left: 2rem;
 } 
+
+.details {
+    display: flex;
+}
+
+.tech-details {
+    margin-left: 5rem;
+}
+
+.desc {
+    width: 40rem;
+    margin-right: 5rem;
+}
+
+    .desc-video {
+        width: 380px;
+        height: 200px;
+    }
 /* BLOG */
