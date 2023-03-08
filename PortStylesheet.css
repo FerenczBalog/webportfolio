@@ -444,23 +444,74 @@ h3 {
 
 }
 
+
+/* BLOG */
 .blog {
     color: white;
+}
+
+.blog-section-1 {
+    padding-top: 10rem;
 }
 
 .blog-nav {
     width: 15rem;
     background-color: rgba(0, 0, 0, 0.596);
     position: fixed;
+    color: wheat;
+    margin-top: 10rem;
 }
 
-.blog-nav h2 {
-    font-size: 2rem;
-}
+    .blog-nav h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .blog-nav li {
+        font-size: 1.5rem;
+    }
+
+    .blog-nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .blog-nav a:hover {
+        text-decoration: underline;
+    }
 
 .posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.596);
     width: 80%;
     float: right;
     margin-right: 10rem;
 }
+    .new-post {
+        width: 80%;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: justify;
+    }
+
+hr {
+    width: 60%;
+}
+
+.text-indent {
+    text-indent: 5rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.project-photo {
+    width: 20rem;
+    margin-left: 2rem;
+} 
+/* BLOG */
