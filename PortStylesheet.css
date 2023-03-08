@@ -448,9 +448,6 @@ h3 {
 /* BLOG */
 .blog {
     color: white;
-}
-
-.blog-section-1 {
     padding-top: 10rem;
 }
 
@@ -458,7 +455,7 @@ h3 {
     width: 15rem;
     background-color: rgba(0, 0, 0, 0.596);
     position: fixed;
-    color: wheat;
+    color: white;
     margin-top: 10rem;
 }
 
@@ -490,7 +487,7 @@ h3 {
     margin-right: 10rem;
 }
     .new-post {
-        width: 80%;
+        width: 90%;
         font-size: 1.5rem;
         line-height: 1.8rem;
         text-align: justify;
