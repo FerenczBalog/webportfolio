@@ -409,6 +409,14 @@ h3 {
         margin-top: 1.6rem;
     }
 
+    .social {
+        display: flex;
+    }
+        .social > a {
+            font-size: 1.5rem;
+            margin-left: 1rem;
+        }
+
     .e-mail {
         margin-bottom: 1rem;
     }
