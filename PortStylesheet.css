@@ -135,6 +135,10 @@ h3 {
     background-color: #24b3247d;
 }
 
+.overlay {
+    background-color: rgba(0, 0, 0, 0.477);
+}
+
 .section-block {
     height: calc(100vh - 8);
     height: 100vh;
