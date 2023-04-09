@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio - Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet"><link rel="stylesheet" a href="PortStylesheet.css">
+        <link rel="stylesheet" a href="ResetCss.css">
+    </head>
+
+    <body>
+
+<!-- HEADER -->
+
+        
+
+    <!-- BLOG -->
+    <aside class="blog-nav">
+        <h2>My Projects</h2>
+        <ul>
+            <li><a href="#project-1">Lifetracker project</a></li>
+            <li><a href="#project-2">WeatherApp</a></li>
+           <!-- <li><a href="#project-3">Blackbox Productions</a></li>
+            <li><a href="#project-4">BiF Audio</a></li>
+            <li><a href="#project-5">BiF Enterprises</a></li> -->
+        </ul>
+    </aside>
+
+    <!-- BALANCED LIFE -->
+    <section id="project-1" class="  blog green bkg-green section-block">
+        <div class="posts">
+            <div class="new-post"> 
+
+                <h3><strong><a href="https://mylifedash.netlify.app/index.html">Lifetracker project v.0.1 <img src="/photo/www.png" style="width: 25px;" alt=""></a></strong></h3>        
+
+                <div class="details">
+
+                    <div class="desc">
+                        <p class="text-indent"> 
+                            Because we live in a fast-paced world, I am working on a webpage 
+                            that can help everyone manage their life. The first version of the 
+                            website contains only a weather function, providing a three-day forecast. 
+                            On the first load, you can see the weather of Cluj-Napoca, which is set as default. 
+                            However, the client has the option to input the name of their preferred city, and 
+                            the weather API of the current page will update the weather data accordingly.
+                        </p>
+                        <p class="text-indent">
+                            Technically, my primary goals were to create a responsive, 
+                            user-friendly, and most importantly, well-functioning website.
+                        </p>                            
+                    </div>
+
+
+                    <div class="tech-details">
+                        <h4>Languages:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+
+                        <h4>Also used:</h4>
+                        <ul>
+                            <li>Flexbox</li>
+                            <li>Grid-layout</li> 
+                            <li>Fetching data</li> 
+                            <li>API</li>                              
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <p class="text-indent">
+                        
+                    </p>
+                    <p class="text-indent">
+                        Regarding the CSS, I primarily used the flexbox layout model, and for the weather section, 
+                        I employed the grid layout with the "grid-template-layout: 1fr, 1fr, 1fr" option, allowing 
+                        me to show three equal boxes on screens with a width of 1920 - 901 pixels. For screens 
+                        below 900 pixels in width, a single box is displayed. <br>
+                        To ensure that the website is responsive, I used media queries for three screen sizes: 
+                        small screens (max-width: 900px), tablets (max-width: 482px), and smartphones (max-width: 321px).
+                    </p>
+
+                    <p class="text-indent">
+                        
+                    </p>                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- BALANCED LIFE -->
+
+    <!-- WEATHERAPP -->
+    <section id="project-2" class="  blog green bkg-blue section-block">
+        <div class="posts">
+            <div class="new-post"> 
+
+                <h3><strong>WeatherApp</strong></h3>
+        
+
+                <div class="details">
+
+                    <div class="desc">
+                        <p class="text-indent">
+                            After completing the basics of JavaScript at Teachbit, we worked on a collaborative project. 
+                            The objective was to create a portfolio using only HTML and CSS, with a focus on using 
+                            JavaScript for the content and Bootstrap for styling, instead of CSS.
+                        </p>
+                        <p class="text-indent">
+                            In addition to learning new concepts in JavaScript, the main objective was to create 
+                            a simple web application that retrieves city data from a JSON file, which is connected 
+                            to an API server.
+                        </p>                           
+                    </div>
+
+                    <embed class="desc-video" src="https://www.youtube.com/embed/2uV2kZ0OukE">
+
+                    <div class="tech-details">
+                        <h4>Languages:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>JS</li>
+                        </ul>
+
+                        <h4>Also used:</h4>
+                        <ul>
+                            <li>Bootstrap</li>
+                            <li>Fetching data</li> 
+                            <li>API</li>                             
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <p class="text-indent">
+                        Of course, the main components of the website were written using JavaScript and Bootstrap. 
+                        However, like any website, it has an index.html file that specifies the main locations of data.
+                        The HTML code contains a header that includes three empty boxes: one for the date and clock, 
+                        one for the selected city, and a select element without any options. Next to the header element, 
+                        we have a segment that includes heading, image, and paragraph elements. Here, we retrieve 
+                        data from the weather API.
+                    </p>
+                    <p class="text-indent">
+                        The main styleing tasks were made with bootstrap, we used CSS to modify them where needed.
+                    </p>
+                    <p class="text-indent">
+                        The main focus of the project was JavaScript. Initially, we used a function to retrieve data from a 
+                        JSON file by fetching it. We then added the cities from the JSON as options to our select element 
+                        based on their ID and name. After completing this part, we created another function to fetch data 
+                        from the server. We processed the response as an array, and then redirected the data to our HTML 
+                        file using variables.
+                    </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- WEATHERAPP -->
+
+    <!-- BlackBoxProductions 
+    <section id="project-3" class="  blog blue bkg-green section-block">
+        <div class="posts">
+            <div class="new-post"> 
+
+                <h3><strong><a href="https://balancedlife.netlify.app/index.html">BiF Audio</a></strong></h3>
+        
+
+                <div class="details">
+
+                    <div class="desc">
+                        <p class="text-indent">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            laborum minus eum modi sit aut magni 
+                            perferendis? </p>
+                        <p class="text-indent">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            lLorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            laborum minus eum modi sit aut magni 
+                            perferendis?aborum minus eum modi sit aut magni 
+                            perferendis? </p>                            
+                    </div>
+
+                    <embed class="desc-video" src="https://www.youtube.com/embed/suHkyB2APYA">
+
+                    <div class="tech-details">
+                        <h4>Languages:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+
+                        <h4>Technologies:</h4>
+                        <ul>
+                            <li>Flexbox</li>
+                            <li>Resposivness</li>                              
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. 
+                    Eveniet maxime officia, quis fugit 
+                    vitae harum maiores quibusdam nam odit 
+                    laborum minus eum modi sit aut magni 
+                    perferendis? </p>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quLorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?ibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis? </p>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime oLorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?fficia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis? </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- BIF AUDIO -->
+
+    <!-- BIF AUDIO 
+    <section id="project-4" class="  blog blue bkg-blue section-block">
+        <div class="posts">
+            <div class="new-post"> 
+
+                <h3><strong><a href="https://balancedlife.netlify.app/index.html">BiF Audio</a></strong></h3>
+        
+
+                <div class="details">
+
+                    <div class="desc">
+                        <p class="text-indent">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            laborum minus eum modi sit aut magni 
+                            perferendis? </p>
+                        <p class="text-indent">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            lLorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            laborum minus eum modi sit aut magni 
+                            perferendis?aborum minus eum modi sit aut magni 
+                            perferendis? </p>                            
+                    </div>
+
+                    <embed class="desc-video" src="https://www.youtube.com/embed/suHkyB2APYA">
+
+                    <div class="tech-details">
+                        <h4>Languages:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+
+                        <h4>Technologies:</h4>
+                        <ul>
+                            <li>Flexbox</li>
+                            <li>Resposivness</li>                              
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. 
+                    Eveniet maxime officia, quis fugit 
+                    vitae harum maiores quibusdam nam odit 
+                    laborum minus eum modi sit aut magni 
+                    perferendis? </p>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quLorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?ibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis? </p>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime oLorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?fficia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis? </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- BIF AUDIO -->
+
+    <!-- BIF ENTERPRISES 
+    <section id="project-5" class="  blog green bkg-green section-block">
+        <div class="posts">
+            <div class="new-post"> 
+
+                <h3><strong><a href="https://balancedlife.netlify.app/index.html">BiF Enterprises</a></strong></h3>
+        
+
+                <div class="details">
+
+                    <div class="desc">
+                        <p class="text-indent">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            laborum minus eum modi sit aut magni 
+                            perferendis? </p>
+                        <p class="text-indent">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            lLorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Eveniet maxime officia, quis fugit 
+                            vitae harum maiores quibusdam nam odit 
+                            laborum minus eum modi sit aut magni 
+                            perferendis?aborum minus eum modi sit aut magni 
+                            perferendis? </p>                            
+                    </div>
+
+                    <embed class="desc-video" src="https://www.youtube.com/embed/suHkyB2APYA">
+
+                    <div class="tech-details">
+                        <h4>Languages:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+
+                        <h4>Technologies:</h4>
+                        <ul>
+                            <li>Flexbox</li>
+                            <li>Resposivness</li>                              
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. 
+                    Eveniet maxime officia, quis fugit 
+                    vitae harum maiores quibusdam nam odit 
+                    laborum minus eum modi sit aut magni 
+                    perferendis? </p>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quLorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?ibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis? </p>
+                    <p class="text-indent">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime oLorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. 
+                        Eveniet maxime officia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis?fficia, quis fugit 
+                        vitae harum maiores quibusdam nam odit 
+                        laborum minus eum modi sit aut magni 
+                        perferendis? </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- BIF ENTERPRISES -->     
+
+
+<!-- Footer -->
+        <footer id="section-5" class="footer" >
+        
+            <address>
+                Str. Tudor Vladimirescu, <br>
+                nr.6, ap.407   <br>
+                Cluj, Cluj-Napoca, Romania
+            </address>
+
+            
+            
+            <div><a href="tel:+40752813860">+40 752 813 860</a>
+            <a href="mailto:balogferencz.artist@gmail.com" class="e-mail">balogferencz.artist@gmail.com</a>
+    </div>
+            </footer>
+    </body>
+</html>
